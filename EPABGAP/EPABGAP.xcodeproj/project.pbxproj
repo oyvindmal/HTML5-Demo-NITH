@@ -32,6 +32,7 @@
 		EB5E8791142B595A00B2F750 /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB5E8790142B595A00B2F750 /* Capture.bundle */; };
 		EB5E8793142B595A00B2F750 /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB5E8792142B595A00B2F750 /* PhoneGap.plist */; };
 		EB5E8797142B595A00B2F750 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB5E8796142B595A00B2F750 /* AppDelegate.m */; };
+		EB5E87A0142B59EF00B2F750 /* www in Resources */ = {isa = PBXBuildFile; fileRef = EB5E879F142B59EF00B2F750 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		EB5E8795142B595A00B2F750 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		EB5E8796142B595A00B2F750 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
 		EB5E8799142B595A00B2F750 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		EB5E879F142B59EF00B2F750 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		EB5E874A142B595A00B2F750 = {
 			isa = PBXGroup;
 			children = (
+				EB5E879F142B59EF00B2F750 /* www */,
 				EB5E8776142B595A00B2F750 /* EPABGAP */,
 				EB5E875B142B595A00B2F750 /* Frameworks */,
 				EB5E8759142B595A00B2F750 /* Products */,
@@ -269,6 +272,7 @@
 				EB5E878F142B595A00B2F750 /* Default~ipad.png in Resources */,
 				EB5E8791142B595A00B2F750 /* Capture.bundle in Resources */,
 				EB5E8793142B595A00B2F750 /* PhoneGap.plist in Resources */,
+				EB5E87A0142B59EF00B2F750 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
