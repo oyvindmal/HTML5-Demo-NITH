@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="c3fcc277-3872-475a-a17c-5b173fd76d5c" Version="1.0.0.0" Publisher="CN=oyvind" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>QuickNote8</DisplayName>
+    <Description>QuickNote8</Description>
+    <PublisherDisplayName>oyvind</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="QuickNote8" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="QuickNote8" ForegroundText="light" BackgroundColor="#0084FF">
+        <DefaultTile ShowName="true" />
+        <SplashScreen Image="images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
